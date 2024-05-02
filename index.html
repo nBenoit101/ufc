@@ -3,23 +3,112 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <script src="https://kit.fontawesome.com/7da585c259.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/main.css">
+    <title>Everything UFC</title>
 </head>
 <body>
     <header>
-        <h2>Everything UFC</h2>
-        <h3>Under Construction</h3>
+        <img src="images/logo.svg.png" alt="">
+        <h2>News</h2>
     </header>
+    
+    <nav id="nav_menu">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#countdown">Countdown</a></li>
+            <li><a href="#picks">Picks</a></li>
+            <li><a href="#news">News</a></li>
+        </ul>
+    </nav>
+
+    <h1>UFC 300 Photos</h1>
 
     <main>
-        <p>Thism website is going to display eveyrthing about the UFC. The home page will
-            be recent news and update. I will have another page for betting odds and my personal
-            picks for upcoming fights.
-        </p>
+        <section>
+            <h3>Recent News</h3>
+            <ul>
+                <li><a href="https://www.espn.com/mma/fightcenter/_/id/600043073/league/ufc" target="_blank">UFC 301 Live Updates</a></li>
+                <li><a href="https://bleacherreport.com/articles/10117756-jamahal-hill-vs-khalil-rountree-jr-announced-for-mcgregor-chandler-card-at-ufc-303" target="_blank">Jamahal Hill Return</a></li>
+                <li><a href="https://mmajunkie.usatoday.com/2023/11/ufc-295-news-tom-aspinall-opinion-ciryl-gane-callout-suggestion-jailton-almeida" target="_blank">Aspinall v. Gane?</a></li>
+                <li><a href="https://www.forbes.com/sites/brianmazique/2024/04/14/dana-white-announces-conor-mcgregors-return-date-and-opponent/?sh=42079d7c5852" target="_blank">McGregor Return</a> </li>
+                <li><a href="https://bleacherreport.com/articles/10118377-dustin-poirier-vs-islam-makhachev-early-head-to-toe-breakdown-for-ufc-302" target="_blank">Poirier v. Mahkachev</a></li>
+                <li><a href="#news">More...</a></li>
+            </ul>
+            
+        </section>
+        <div class="container">
+            <div class="imagecarousel">
+                <div class="image fadeout"><img src="images/1.webp" alt=""></div>
+                <div class="image fadeout"><img src="images/2.webp" alt=""></div>
+                <div class="image fadeout"><img src="images/3.webp" alt=""></div>
+                <div class="image fadeout"><img src="images/4.webp" alt=""></div>
+                <div class="image fadeout"><img src="images/5.webp" alt=""></div>
+                <div class="image fadeout"><img src="images/6.webp" alt=""></div>
+                <div class="image fadeout"><img src="images/7.webp" alt=""></div>
+                <div class="image fadeout"><img src="images/8.webp" alt=""></div>
+                <div class="image fadeout"><img src="images/9.webp" alt=""></div>
+                <div class="image fadeout"><img src="images/10.webp" alt=""></div>
+                <div class="image fadeout"><img src="images/11.webp" alt=""></div>
+                <div class="image fadeout"><img src="images/12.webp" alt=""></div>
+                <div class="image fadeout"><img src="images/13.webp" alt=""></div>
+
+                <!-- Font Awesome next and prev -->
+                <div class="prev"><i onclick="showImage(-1)" class="fa-solid fa-backward"></i></div>
+                <div class="next"><i onclick="showImage(1)" class="fa-solid fa-forward"></i></div>
+            </div>
+        </div>
+
+        <div class="dots">
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+        </div>
+
+        <aside>
+            <h3>UFC 301 Breakdowns</h3>
+
+            <article id="vid1">
+                <h4>MMA Guru</h4>
+                <div class="videowrapper"><iframe src="https://www.youtube.com/embed/qXdET39yfvg?si=Ty2E-xLTk_3_rN5x" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+                <div class="caption"></div>
+            </article>
+            <article id="vid2">
+                <h4>Alexander Volkanovski</h4>
+                <div class="videowrapper"><iframe src="https://www.youtube.com/embed/TrAOnFZ6DMU?si=dtOEV3lEwip9_6gV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+                <div class="caption"></div>
+            </article>
+            <article id="vid3">
+                <h4>ESPN MMA</h4>
+                <div class="videowrapper"><iframe src="https://www.youtube.com/embed/i3AkLmzfvpM?si=YC101EejZlW_4Pwx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+                <div class="caption"></div>
+            </article>
+            <article id="vid4">
+                <h4>Tim Welch</h4>
+                <div class="videowrapper"><iframe src="https://www.youtube.com/embed/PNLqBaHLCd8?si=yDPtfiyi7gxW6Jnb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+                <div class="caption"></div>
+            </article>
+
+            
+        </aside>
+
     </main>
 
     <footer>
-
+        <p>&copy; <span id="copyrightyear"></span> Nick Benoit</p>
     </footer>
+
 </body>
 </html>
+
+<script src="scripts/js.js"></script>
