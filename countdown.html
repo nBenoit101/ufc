@@ -3,9 +3,84 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+
+
+    <link rel="stylesheet" href="css/countdown.css">
+    <title>Countdown</title>
 </head>
 <body>
+    <header>
+        <img src="images/logo.svg.png" alt="">
+        <h2>News</h2>
+    </header>
+
+    <nav id="nav_menu">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="countdown.html">Countdown</a></li>
+            <li><a href="picks.html">Picks</a></li>
+            <!-- <li><a href="#news">News</a></li> -->
+        </ul>
+    </nav>
+
+    <main>
+            <section>
+                <div class="countdown1">
+                <h2 id="displaytimer"></h2> 
+                <h3><a href="https://www.ufc.com/event/ufc-301?language_content_entity=en" target="_blank">Until UFC 301</a></h3>
+                <img src="images/ufc301.jpeg" alt="">
+                    
+                </div>
+                
+                <div class="countdown2">
+                    <h2 id="displaytimerTwo"></h2>
+                    <h3><a href="https://www.ufc.com/event/ufc-302" target="_blank">Until UFC 302</a></h3>
+                    <img src="images/ufc302.jpeg" alt="">
+                </div>
+
+                <div class="countdown3">
+                    <h2 id="displaytimerThree"></h2>
+                    <h3><a href="https://www.ufc.com/event/ufc-303" target="_blank">Until UFC 303</a></h3>
+                    <img src="images/ufc303.jpeg" alt="">
+                </div>
+            </section>
+
+        <aside>
+            <div>
+                <h2>UFC 301 Main Card (Subject to Change)</h2>
+                <p>Alexandre Pantoja vs Steve Erceg (Flyweight Title)</p>
+                <p>Jose Aldo vs Jonathon Martinez</p>
+                <p>Anthony Smith vs Vitor Petrino</p>
+                <p>Michel Pereira vs Ihor Potieria</p>
+                <p>Paul Craig vs Caio Borralho</p>
+            </div>
+
+            <div>
+                <h2>UFC 302 Main Card (Subject to Change)</h2>
+                <p>Islam Mahkachev vs Dustion Poirier (Lightweight Title)</p>
+                <p>Paulo Costa vs Sean Strickland</p>
+                <p>Randy Brown vs Elizeu Zaleski Dos Santos</p>
+                <p>Cesar Almeida vs Roman Kopylov</p>
+                <p>Tatsuro Taira vs Joshu Van</p>
+            </div>
+
+            <div>
+                <h2>UFC 303 Main Card (Subject to Change)</h2>
+                <p>Conor McGregor vs Michael Chandler (5 Rounds)</p>
+                <p>Jamahal Hill vs Khalil Rountree</p>
+                <p>Mayra Bueno Silva vs Macy Chiasson</p>
+                <p>Cub Swanson vs Andre Fili</p>
+                <p>Joe Pyfer vs Marc-Andre Barriault</p>
+                
+            </div>
+
+        </aside>
+    </main>
+
+    <footer>
+        <p>&copy; <span id="copyrightyear"></span> Nick Benoit</p>
+    </footer>
     
 </body>
 </html>
+<script src="scripts/js.js"></script>
